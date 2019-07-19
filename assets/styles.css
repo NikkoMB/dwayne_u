@@ -1,21 +1,15 @@
-/**
- * Copyright 2015 Google Inc. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 body {
   margin: 0;
+}
+
+img{
+  margin-bottom: 50px;
+  height: 390px;
+}
+
+.logo-font .android-slogan{
+  margin-bottom: 50px;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -24,12 +18,12 @@ a img{
 }
 
 ::-moz-selection {
-  background-color: #6ab344;
+  background-color: black;
   color: #fff;
 }
 
 ::selection {
-  background-color: #6ab344;
+  background-color:black;
   color: #fff;
 }
 
@@ -78,11 +72,11 @@ a img{
 
   .android-header .mdl-layout__drawer-button {
     background: transparent;
-    color: #767777;
+    color: black;
   }
 
   .android-header .mdl-navigation__link {
-    color: #757575;
+    color: black;
     font-weight: 700;
     font-size: 14px;
   }
@@ -122,7 +116,7 @@ a img{
   }
 
     .android-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: black;
     }
 
   .android-search-box {
@@ -161,7 +155,7 @@ a img{
 
   .android-drawer .mdl-layout-title {
     position: relative;
-    background: #6ab344;
+    background: black;
     height: 160px;
   }
 
@@ -329,11 +323,11 @@ a img{
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #010200 !important;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
+    color: #000000 !important;
   }
 
   .android-link .material-icons {
@@ -349,7 +343,7 @@ a img{
 }
 
   .android-alt-link:hover {
-    color: #00bfa5 !important;
+    color: #000000 !important;
   }
 
   .android-alt-link .material-icons {
@@ -434,7 +428,7 @@ a img{
 }
 
   .android-footer a:hover {
-    color: #8bc34a;
+    color: black;
   }
 
   .android-footer .mdl-mega-footer--top-section::after {
@@ -461,6 +455,7 @@ a img{
 
 .android-link-menu:hover {
   cursor: pointer;
+  color: black;
 }
 
 
