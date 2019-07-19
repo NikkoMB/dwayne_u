@@ -8,6 +8,17 @@ img{
   height: 390px;
 }
 
+p{
+  padding: 70px;
+  margin-left: 50px;
+  position: static;
+}
+
+b{
+  font-family: 'Literata', serif;
+  font-size: 30px;
+}
+
 .logo-font .android-slogan{
   margin-bottom: 50px;
 }
