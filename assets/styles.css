@@ -36,8 +36,35 @@ img{
   left: 100px;
 }
 
-#pdf{
-  height: 50px;
+/*----------------- -MEDIA QUERY- ---------------------- */
+@media screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1400px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+#barber{
+  position: relative;
+  top: 84px;
+  left: 100px;
+}
+
+#ds{
+ position: relative;
+ left: 250px;
+ top: 80px;
+}
+
+
+#boxing{
+  position: relative;
+  top: 229px;
+  left: 250px;
+}
+
+#reel{
+  position: relative;
+  left: 100px;
+}
 }
 /*----------------- -CONTACT FORM- --------------------- */ 
 input[type=text], select, textarea {
