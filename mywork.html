@@ -37,16 +37,9 @@
         <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
                 <span class="android-title mdl-layout-title">
-                    <h1>Dwayne U. </h1>
                 </span>
                 <!-- Add spacer, to align navigation to the right in desktop -->
                 <div class="android-header-spacer mdl-layout-spacer"></div>
-                <div
-                    class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-                    <div class="mdl-textfield__expandable-holder">
-                        <input class="mdl-textfield__input" type="text" id="search-field">
-                    </div>
-                </div>
                 <!-- Navigation -->
                 <div class="android-navigation-container">
                     <nav class="android-navigation mdl-navigation">
@@ -89,23 +82,21 @@
             </div>
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--4-col">
-                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/155453390" width="540" height="460"
-                        frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div id="ds" class="mdl-cell mdl-cell--4-col"> <iframe width="540" height="315"
-                        src="https://www.youtube.com/embed/3nFdJdWV4V4" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe></div>
-                <div class="mdl-cell mdl-cell--4-col">
-                    <video width="540" height="315" controls>
+                    <iframe id="reel" title="vimeo-player" src="https://player.vimeo.com/video/155453390" width="540"
+                        height="460" frameborder="0" allowfullscreen></iframe>
+                    <video id="barber" width="540" height="315" controls>
                         <source src="assets/images/barber_video.mp4" type="video/mp4">
-                    </video>
                 </div>
-                <div id="boxing" class="mdl-cell mdl-cell--4-col">
-                    <video width="540" height="315" controls>
+                <div class="mdl-cell mdl-cell--4-col">
+                    <iframe id="ds" width="540" height="315" src="https://www.youtube.com/embed/3nFdJdWV4V4"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <video id="boxing" width="540" height="315" controls>
                         <source src="assets/images/boxing.mp4" type="video/mp4">
-                    </video>
                 </div>
+                <div class="mdl-cell mdl-cell--4-col">
+                </div>
+
             </div>
             <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
