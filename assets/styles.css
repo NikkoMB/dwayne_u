@@ -12,35 +12,40 @@ img{
   color: black;
 }
 
-#youtube{
-  margin-left: 670px;
-  margin-bottom: 40px;
+#barber{
+  position: relative;
+  top: 80px;
+  left: 100px;
 }
 
 #ds{
-  margin-left: 450px;
-  margin-top: 88px;
+ position: relative;
+ left: 450px;
+ top: 80px;
 }
+
+
+#boxing{
+  position: relative;
+  top: 229px;
+  left: 450px;
+}
+
+#reel{
+  position: relative;
+  left: 100px;
+}
+/*----------------- -RESOLUTION- --------------------- */ 
+
+
+
+/*----------------- -END OF RESOLUTION CSS- --------------- */
+
 
 #work_title{
   font-family: 'Permanent Marker', cursive;
 }
 
-#barber{
-  margin-left: 400px;
-}
-
-#mv{
-  margin-left: 920px;
-}
-
-#boxing{
-  margin-left: 450px;
-}
-
-#vimeo{
-  margin-top: 20px;
-}
 
 
 #dwayne{
