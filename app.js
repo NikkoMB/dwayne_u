@@ -75,6 +75,6 @@ transporter.sendMail(mailOptions, function (error, info) {
 });
 });
 
-app.listen(5000 || process.env.PORT, function(){
+app.listen(process.env.PORT || 5000, function(){
     console.log('OH BABY WE LIVE LIVE');
 });
