@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" />
     <style>
         #view-source {
             position: fixed;
@@ -42,13 +42,7 @@
                 <div class="android-header-spacer mdl-layout-spacer"></div>
                 <!-- Navigation -->
                 <div class="android-navigation-container">
-                    <nav class="android-navigation mdl-navigation">
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="about.html">About</a>
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="mywork.html">My Work</a>
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="resume.html">Resumé</a>
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="contact.html">Contact</a>
-                    </nav>
+                    <% include partials/nav.ejs %>
                 </div>
             </div>
         </div>
