@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <style>
         #view-source {
             position: fixed;
@@ -41,7 +41,7 @@
                 <!-- Navigation -->
                 <div class="android-navigation-container">
                     <nav class="android-navigation mdl-navigation">
-                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
+                        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="index.html">Home</a>
                         <a class="mdl-navigation__link mdl-typography--text-uppercase" href="about.html">About</a>
                         <a class="mdl-navigation__link mdl-typography--text-uppercase" href="mywork.html">My Work</a>
                         <a class="mdl-navigation__link mdl-typography--text-uppercase" href="resume.html">Resumé</a>
@@ -53,20 +53,16 @@
 
         <div class=" mdl-layout__content">
                 <div class="container">
-                        <form method="POST" action="/send-email">
+                        <form id="contact-form" method="POST" action="/contact">
                       
                           <label for="fname">First Name</label>
                           <input type="text" id="fname" name="firstname" placeholder="Your name..">
                       
                           <label for="lname">Last Name</label>
                           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                          <label for="email">E-Mail</label>
-                          <input type="text" id="lemail" name="email" placeholder="Your e-mail.." required aria-required='true'>
                       
-                      
-                          <label for="subject">Message</label>
-                          <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                       
                           <input type="submit" value="Submit">
                       
