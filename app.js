@@ -68,14 +68,16 @@ let transporter = nodemailer.createTransport({
     }
 });
 
+
 app.post('/send-email', function (req, res) {
     let email = req.body["email"];
+    let subject = req.body['subject'];
     let mailOptions = {
         from: email,
         replyTo: email,
         to: process.env.EMAIL,
         subject: 'Email from Personal Website',
-        text: req.body.message
+        text: subject
     };
 
 
